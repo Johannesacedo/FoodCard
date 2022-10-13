@@ -13,7 +13,7 @@ const Foodcard:NextPage = () => {
         <input 
         className={styles.searchInput}
         type="text"
-        placeholder="Search..." 
+        placeholder="Search name or rating..." 
         onChange={(event) =>{setSearchTerm(event.target.value)}}/>
       </div>
       <br/>
@@ -22,6 +22,8 @@ const Foodcard:NextPage = () => {
             if(searchTerm == ""){
               return val
             }else if(val.name.toLowerCase().includes(searchTerm.toLowerCase())){
+              return val
+            }else if(val.rating.includes(searchTerm)){
               return val
             }
           }).map((datas) =>(

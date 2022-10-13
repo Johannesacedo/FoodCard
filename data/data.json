@@ -4,35 +4,35 @@
         "name": "Banana",
         "Image": "/static/banana.svg",
         "description": "A banana is a curved, yellow fruit with a thick skin and soft sweet flesh",
-        "rating": "4.5"
+        "rating": "3.0"
     },
     {
         "id": "2",
         "name": "Apple",
         "Image": "/static/apple.svg",
         "description": "An apple is an edible fruit produced by an apple tree (Malus domestica).",
-        "rating": "4.5"
+        "rating": "4.0"
     },
     {
         "id": "3",
         "name": "Rice",
         "Image": "/static/rice.svg",
         "description": "edible starchy cereal grain and the grass plant",
-        "rating": "4.5"
+        "rating": "4.1"
     },
     {
         "id": "4",
         "name": "Steak",
         "Image": "/static/steak.svg",
         "description": "Steak is a food that can be described as tender, flavorful, juicy, and cooked to perfection",
-        "rating": "4.5"
+        "rating": "5.0"
     },
     {
         "id": "5",
         "name": "Cheese",
         "Image": "/static/cheese.svg",
         "description": "is a dairy product produced in wide ranges of flavors, textures, and forms by coagulation of the milk protein casein.",
-        "rating": "4.5"
+        "rating": "4.2"
     },
     {
         "id": "6",
