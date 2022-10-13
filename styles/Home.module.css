@@ -3,30 +3,20 @@
 }
 
 .main {
-  min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  -text: #000000;
+  --text2: #333333;
+  --bg2: #eeeeee;
+  --bg: #ffffff;
 }
 
-.footer {
-  display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
-  align-items: center;
+.main.dark {
+  --text: #ffffff;
+  --text2: #eeeeee;
+  --bg2: #333333;
+  --bg: #000000;
 }
 
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
-}
+
 
 .title a {
   color: #0070f3;
@@ -116,14 +106,16 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  .card,
-  .footer {
-    border-color: #222;
+  .main {
+    --text: #ffffff;
+    --text2: #eeeeee;
+    --bg2: #333333;
+    --bg: #000000;
   }
-  .code {
-    background: #111;
-  }
-  .logo img {
-    filter: invert(1);
+  .main.light {
+    --text: #000000;
+    --text2: #333333;
+    --bg2: #eeeeee;
+    --bg: #ffffff;
   }
 }
